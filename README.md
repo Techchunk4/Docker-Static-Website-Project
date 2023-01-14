@@ -1,6 +1,6 @@
 
 <h1 align="center">Hi 👋, I'm Abdelkader Ismail</h1>
-<h3 align="center">This is a  |Docker |project!</h3>
+<h3 align="center">This is a docker project!</h3>
 
 <p align="center">
 ᴛʜᴇ ɢᴏᴀʟ ᴏꜰ ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ ɪꜱ ᴛᴏ ᴄʀᴇᴀᴛᴇ ᴀ ᴡᴇʙꜱɪᴛᴇ ᴜꜱɪɴɢ ᴏʀᴀᴄʟᴇ ᴠᴍ, ᴜʙᴜɴᴛᴜ ꜱᴇʀᴠᴇʀ, ᴅᴏᴄᴋᴇʀ-ᴇɴɢɪɴᴇ ᴀɴᴅ ᴛʜᴇ ᴡᴇʙ ᴛᴇᴍᴘʟᴀᴛᴇ ꜰʀᴏᴍ ᴛᴏᴏᴘʟᴀᴛᴇ.ᴄᴏᴍ. ᴛʜᴇ ᴡᴇʙꜱɪᴛᴇ ᴡɪʟʟ ʙᴇ ʜᴏꜱᴛᴇᴅ ᴏɴ ɢɪᴛʜᴜʙ ᴀɴᴅ ᴡɪʟʟ ɪɴᴄʟᴜᴅᴇ ᴀ ᴅᴇᴛᴀɪʟᴇᴅ ʀᴇᴀᴅᴍᴇ ꜰɪʟᴇ.
@@ -17,7 +17,17 @@
 
 ᴏᴠᴇʀᴀʟʟ, ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ ᴡɪʟʟ ɪɴᴠᴏʟᴠᴇ ꜱᴇᴛᴛɪɴɢ ᴜᴘ ᴀɴ ᴏʀᴀᴄʟᴇ ᴠᴍ, ɪɴꜱᴛᴀʟʟɪɴɢ ᴛʜᴇ ᴅᴏᴄᴋᴇʀ-ᴇɴɢɪɴᴇ, ᴜꜱɪɴɢ ᴀ ᴘʀᴇ-ʙᴜɪʟᴛ ʜᴛᴍʟ ᴛᴇᴍᴘʟᴀᴛᴇ ꜰʀᴏᴍ ᴛᴏᴏᴘʟᴀᴛᴇ.ᴄᴏᴍ ᴛᴏ ᴄʀᴇᴀᴛᴇ ᴀ ᴡᴇʙꜱɪᴛᴇ, ᴄᴏɴᴛᴀɪɴᴇʀɪᴢɪɴɢ ᴛʜᴇ ᴀᴘᴘʟɪᴄᴀᴛɪᴏɴ ᴀɴᴅ ᴅᴇᴘʟᴏʏɪɴɢ ᴛʜᴇ ᴡᴇʙꜱɪᴛᴇ ᴏɴ ɢɪᴛʜᴜʙ ᴡɪᴛʜ ᴀ ʀᴇᴀᴅᴍᴇ ꜰɪʟᴇ. ᴛʜᴇ ᴇɴᴅ ʀᴇꜱᴜʟᴛ ᴡɪʟʟ ʙᴇ ᴀ ꜰᴜʟʟʏ ꜰᴜɴᴄᴛɪᴏɴɪɴɢ ᴡᴇʙꜱɪᴛᴇ ʜᴏꜱᴛᴇᴅ ᴏɴ ɢɪᴛʜᴜʙ, ᴛʜᴀᴛ ᴄᴀɴ ʙᴇ ᴇᴀꜱɪʟʏ ᴅᴇᴘʟᴏʏᴇᴅ ᴜꜱɪɴɢ ᴛʜᴇ ᴅᴏᴄᴋᴇʀ ɪᴍᴀɢᴇ.
 </p>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+<h3 align="center">ᴛⷮoͦoͦls͛ iͥ uͧs͛eͤdͩ foͦrͬ ᴛⷮhͪiͥs͛ рⷬrͬoͦjeͤcͨᴛⷮ</h3>
+<div>
+<img width="80px" height="80px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+<img width="100px" height="100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
+<img width="80px" height="80px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" />
+<img width="80px" height="80px"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" />
+         
+
+</div>
 
 
 
+
+          

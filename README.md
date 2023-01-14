@@ -1,21 +1,22 @@
 
 <h1 align="center">Hi 👋, I'm Abdelkader Ismail</h1>
-<h3 align="center">A passionate frontend developer from London</h3>
+<h3 align="center">A passionate developer from London</h3>
 
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=destinyoo&label=Profile%20views&color=0e75b6&style=flat" alt="destinyoo" /> 
-  The goal of this project is to create a website using Oracle VM, Ubuntu Server, Docker-engine and the web template from Tooplate.com. The website will be hosted on Github and will include a detailed readme file.
+<p align="center">
+ᴛʜᴇ ɢᴏᴀʟ ᴏꜰ ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ ɪꜱ ᴛᴏ ᴄʀᴇᴀᴛᴇ ᴀ ᴡᴇʙꜱɪᴛᴇ ᴜꜱɪɴɢ ᴏʀᴀᴄʟᴇ ᴠᴍ, ᴜʙᴜɴᴛᴜ ꜱᴇʀᴠᴇʀ, ᴅᴏᴄᴋᴇʀ-ᴇɴɢɪɴᴇ ᴀɴᴅ ᴛʜᴇ ᴡᴇʙ ᴛᴇᴍᴘʟᴀᴛᴇ ꜰʀᴏᴍ ᴛᴏᴏᴘʟᴀᴛᴇ.ᴄᴏᴍ. ᴛʜᴇ ᴡᴇʙꜱɪᴛᴇ ᴡɪʟʟ ʙᴇ ʜᴏꜱᴛᴇᴅ ᴏɴ ɢɪᴛʜᴜʙ ᴀɴᴅ ᴡɪʟʟ ɪɴᴄʟᴜᴅᴇ ᴀ ᴅᴇᴛᴀɪʟᴇᴅ ʀᴇᴀᴅᴍᴇ ꜰɪʟᴇ.
 
-The first step in this project will be to set up an Oracle VM using the Ubuntu Server. Once the VM is up and running, we will install the Docker-engine on the server. This will allow us to run Docker containers on the server.
+ᴛʜᴇ ꜰɪʀꜱᴛ ꜱᴛᴇᴘ ɪɴ ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ ᴡɪʟʟ ʙᴇ ᴛᴏ ꜱᴇᴛ ᴜᴘ ᴀɴ ᴏʀᴀᴄʟᴇ ᴠᴍ ᴜꜱɪɴɢ ᴛʜᴇ ᴜʙᴜɴᴛᴜ ꜱᴇʀᴠᴇʀ. ᴏɴᴄᴇ ᴛʜᴇ ᴠᴍ ɪꜱ ᴜᴘ ᴀɴᴅ ʀᴜɴɴɪɴɢ, ᴡᴇ ᴡɪʟʟ ɪɴꜱᴛᴀʟʟ ᴛʜᴇ ᴅᴏᴄᴋᴇʀ-ᴇɴɢɪɴᴇ ᴏɴ ᴛʜᴇ ꜱᴇʀᴠᴇʀ. ᴛʜɪꜱ ᴡɪʟʟ ᴀʟʟᴏᴡ ᴜꜱ ᴛᴏ ʀᴜɴ ᴅᴏᴄᴋᴇʀ ᴄᴏɴᴛᴀɪɴᴇʀꜱ ᴏɴ ᴛʜᴇ ꜱᴇʀᴠᴇʀ.
 
-Next, we will use the Tooplate.com HTML template to create the website. We will customize the template to match our desired design and functionality. This will include editing the HTML and CSS files, as well as adding any necessary features such as forms and authentication.
+ɴᴇxᴛ, ᴡᴇ ᴡɪʟʟ ᴜꜱᴇ ᴛʜᴇ ᴛᴏᴏᴘʟᴀᴛᴇ.ᴄᴏᴍ ʜᴛᴍʟ ᴛᴇᴍᴘʟᴀᴛᴇ ᴛᴏ ᴄʀᴇᴀᴛᴇ ᴛʜᴇ ᴡᴇʙꜱɪᴛᴇ. ᴡᴇ ᴡɪʟʟ ᴄᴜꜱᴛᴏᴍɪᴢᴇ ᴛʜᴇ ᴛᴇᴍᴘʟᴀᴛᴇ ᴛᴏ ᴍᴀᴛᴄʜ ᴏᴜʀ ᴅᴇꜱɪʀᴇᴅ ᴅᴇꜱɪɢɴ ᴀɴᴅ ꜰᴜɴᴄᴛɪᴏɴᴀʟɪᴛʏ. ᴛʜɪꜱ ᴡɪʟʟ ɪɴᴄʟᴜᴅᴇ ᴇᴅɪᴛɪɴɢ ᴛʜᴇ ʜᴛᴍʟ ᴀɴᴅ ᴄꜱꜱ ꜰɪʟᴇꜱ, ᴀꜱ ᴡᴇʟʟ ᴀꜱ ᴀᴅᴅɪɴɢ ᴀɴʏ ɴᴇᴄᴇꜱꜱᴀʀʏ ꜰᴇᴀᴛᴜʀᴇꜱ ꜱᴜᴄʜ ᴀꜱ ꜰᴏʀᴍꜱ ᴀɴᴅ ᴀᴜᴛʜᴇɴᴛɪᴄᴀᴛɪᴏɴ.
 
-Once the website is complete, we will use Docker to containerize the application. This will allow us to easily deploy the website to different environments without the need to make any configuration changes.
+ᴏɴᴄᴇ ᴛʜᴇ ᴡᴇʙꜱɪᴛᴇ ɪꜱ ᴄᴏᴍᴘʟᴇᴛᴇ, ᴡᴇ ᴡɪʟʟ ᴜꜱᴇ ᴅᴏᴄᴋᴇʀ ᴛᴏ ᴄᴏɴᴛᴀɪɴᴇʀɪᴢᴇ ᴛʜᴇ ᴀᴘᴘʟɪᴄᴀᴛɪᴏɴ. ᴛʜɪꜱ ᴡɪʟʟ ᴀʟʟᴏᴡ ᴜꜱ ᴛᴏ ᴇᴀꜱɪʟʏ ᴅᴇᴘʟᴏʏ ᴛʜᴇ ᴡᴇʙꜱɪᴛᴇ ᴛᴏ ᴅɪꜰꜰᴇʀᴇɴᴛ ᴇɴᴠɪʀᴏɴᴍᴇɴᴛꜱ ᴡɪᴛʜᴏᴜᴛ ᴛʜᴇ ɴᴇᴇᴅ ᴛᴏ ᴍᴀᴋᴇ ᴀɴʏ ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ ᴄʜᴀɴɢᴇꜱ.
 
-After the website is containerized, we will push the image to Github. We will then create a detailed readme file that explains how to run the website using the Docker image. This will include instructions on how to set up the Oracle VM and Docker-engine, as well as how to run the website using the Docker image.
+ᴀꜰᴛᴇʀ ᴛʜᴇ ᴡᴇʙꜱɪᴛᴇ ɪꜱ ᴄᴏɴᴛᴀɪɴᴇʀɪᴢᴇᴅ, ᴡᴇ ᴡɪʟʟ ᴘᴜꜱʜ ᴛʜᴇ ɪᴍᴀɢᴇ ᴛᴏ ɢɪᴛʜᴜʙ. ᴡᴇ ᴡɪʟʟ ᴛʜᴇɴ ᴄʀᴇᴀᴛᴇ ᴀ ᴅᴇᴛᴀɪʟᴇᴅ ʀᴇᴀᴅᴍᴇ ꜰɪʟᴇ ᴛʜᴀᴛ ᴇxᴘʟᴀɪɴꜱ ʜᴏᴡ ᴛᴏ ʀᴜɴ ᴛʜᴇ ᴡᴇʙꜱɪᴛᴇ ᴜꜱɪɴɢ ᴛʜᴇ ᴅᴏᴄᴋᴇʀ ɪᴍᴀɢᴇ. ᴛʜɪꜱ ᴡɪʟʟ ɪɴᴄʟᴜᴅᴇ ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ ᴏɴ ʜᴏᴡ ᴛᴏ ꜱᴇᴛ ᴜᴘ ᴛʜᴇ ᴏʀᴀᴄʟᴇ ᴠᴍ ᴀɴᴅ ᴅᴏᴄᴋᴇʀ-ᴇɴɢɪɴᴇ, ᴀꜱ ᴡᴇʟʟ ᴀꜱ ʜᴏᴡ ᴛᴏ ʀᴜɴ ᴛʜᴇ ᴡᴇʙꜱɪᴛᴇ ᴜꜱɪɴɢ ᴛʜᴇ ᴅᴏᴄᴋᴇʀ ɪᴍᴀɢᴇ.
 
-Throughout the project, we will use Github's monitoring and logging tools to ensure that the website is running smoothly and troubleshoot any issues that may arise.
+ᴛʜʀᴏᴜɢʜᴏᴜᴛ ᴛʜᴇ ᴘʀᴏᴊᴇᴄᴛ, ᴡᴇ ᴡɪʟʟ ᴜꜱᴇ ɢɪᴛʜᴜʙ'ꜱ ᴍᴏɴɪᴛᴏʀɪɴɢ ᴀɴᴅ ʟᴏɢɢɪɴɢ ᴛᴏᴏʟꜱ ᴛᴏ ᴇɴꜱᴜʀᴇ ᴛʜᴀᴛ ᴛʜᴇ ᴡᴇʙꜱɪᴛᴇ ɪꜱ ʀᴜɴɴɪɴɢ ꜱᴍᴏᴏᴛʜʟʏ ᴀɴᴅ ᴛʀᴏᴜʙʟᴇꜱʜᴏᴏᴛ ᴀɴʏ ɪꜱꜱᴜᴇꜱ ᴛʜᴀᴛ ᴍᴀʏ ᴀʀɪꜱᴇ.
 
-Overall, this project will involve setting up an Oracle VM, installing the Docker-engine, using a pre-built HTML template from Tooplate.com to create a website, containerizing the application and deploying the website on Github with a readme file. The end result will be a fully functioning website hosted on Github, that can be easily deployed using the Docker image.
+ᴏᴠᴇʀᴀʟʟ, ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ ᴡɪʟʟ ɪɴᴠᴏʟᴠᴇ ꜱᴇᴛᴛɪɴɢ ᴜᴘ ᴀɴ ᴏʀᴀᴄʟᴇ ᴠᴍ, ɪɴꜱᴛᴀʟʟɪɴɢ ᴛʜᴇ ᴅᴏᴄᴋᴇʀ-ᴇɴɢɪɴᴇ, ᴜꜱɪɴɢ ᴀ ᴘʀᴇ-ʙᴜɪʟᴛ ʜᴛᴍʟ ᴛᴇᴍᴘʟᴀᴛᴇ ꜰʀᴏᴍ ᴛᴏᴏᴘʟᴀᴛᴇ.ᴄᴏᴍ ᴛᴏ ᴄʀᴇᴀᴛᴇ ᴀ ᴡᴇʙꜱɪᴛᴇ, ᴄᴏɴᴛᴀɪɴᴇʀɪᴢɪɴɢ ᴛʜᴇ ᴀᴘᴘʟɪᴄᴀᴛɪᴏɴ ᴀɴᴅ ᴅᴇᴘʟᴏʏɪɴɢ ᴛʜᴇ ᴡᴇʙꜱɪᴛᴇ ᴏɴ ɢɪᴛʜᴜʙ ᴡɪᴛʜ ᴀ ʀᴇᴀᴅᴍᴇ ꜰɪʟᴇ. ᴛʜᴇ ᴇɴᴅ ʀᴇꜱᴜʟᴛ ᴡɪʟʟ ʙᴇ ᴀ ꜰᴜʟʟʏ ꜰᴜɴᴄᴛɪᴏɴɪɴɢ ᴡᴇʙꜱɪᴛᴇ ʜᴏꜱᴛᴇᴅ ᴏɴ ɢɪᴛʜᴜʙ, ᴛʜᴀᴛ ᴄᴀɴ ʙᴇ ᴇᴀꜱɪʟʏ ᴅᴇᴘʟᴏʏᴇᴅ ᴜꜱɪɴɢ ᴛʜᴇ ᴅᴏᴄᴋᴇʀ ɪᴍᴀɢᴇ.
 </p>
+
 
 

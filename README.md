@@ -1,7 +1,7 @@
 <h1 align="center">Docker container running on a Linux server</h1>
 
 <p align="center">
-The diagram represents a setup for a project that utilizes virtualization, a Linux-based operating system, and containerization.
+A setup for a project that utilizes virtualization, a Linux-based operating system, and containerization.
 
 The project uses Oracle-VM as the virtualization platform to run multiple virtual machines on a single physical server. One of these virtual machines is an Ubuntu Server, which serves as the operating system for the project. Docker Engine is installed on the Ubuntu Server to build, run, and manage Docker containers.
 

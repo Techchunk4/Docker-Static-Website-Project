@@ -1,21 +1,13 @@
-
-<h3 align="center">Hi 👋, I'm Abdelkader Ismail</h3>
-<h1 align="center">App running on a doccker container</h1>
+<h1 align="center">Docker container running on Linux-server</h1>
 
 <p align="center">
-ᴛʜᴇ ɢᴏᴀʟ ᴏꜰ ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ ɪꜱ ᴛᴏ ᴄʀᴇᴀᴛᴇ ᴀ ᴡᴇʙꜱɪᴛᴇ ᴜꜱɪɴɢ ᴏʀᴀᴄʟᴇ ᴠᴍ, ᴜʙᴜɴᴛᴜ ꜱᴇʀᴠᴇʀ, ᴅᴏᴄᴋᴇʀ-ᴇɴɢɪɴᴇ ᴀɴᴅ ᴛʜᴇ ᴡᴇʙ ᴛᴇᴍᴘʟᴀᴛᴇ ꜰʀᴏᴍ ᴛᴏᴏᴘʟᴀᴛᴇ.ᴄᴏᴍ. ᴛʜᴇ ᴡᴇʙꜱɪᴛᴇ ᴡɪʟʟ ʙᴇ ʜᴏꜱᴛᴇᴅ ᴏɴ ɢɪᴛʜᴜʙ ᴀɴᴅ ᴡɪʟʟ ɪɴᴄʟᴜᴅᴇ ᴀ ᴅᴇᴛᴀɪʟᴇᴅ ʀᴇᴀᴅᴍᴇ ꜰɪʟᴇ.
+The diagram represents a setup for a project that utilizes virtualization, a Linux-based operating system, and containerization.
 
-ᴛʜᴇ ꜰɪʀꜱᴛ ꜱᴛᴇᴘ ɪɴ ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ ᴡɪʟʟ ʙᴇ ᴛᴏ ꜱᴇᴛ ᴜᴘ ᴀɴ ᴏʀᴀᴄʟᴇ ᴠᴍ ᴜꜱɪɴɢ ᴛʜᴇ ᴜʙᴜɴᴛᴜ ꜱᴇʀᴠᴇʀ. ᴏɴᴄᴇ ᴛʜᴇ ᴠᴍ ɪꜱ ᴜᴘ ᴀɴᴅ ʀᴜɴɴɪɴɢ, ᴡᴇ ᴡɪʟʟ ɪɴꜱᴛᴀʟʟ ᴛʜᴇ ᴅᴏᴄᴋᴇʀ-ᴇɴɢɪɴᴇ ᴏɴ ᴛʜᴇ ꜱᴇʀᴠᴇʀ. ᴛʜɪꜱ ᴡɪʟʟ ᴀʟʟᴏᴡ ᴜꜱ ᴛᴏ ʀᴜɴ ᴅᴏᴄᴋᴇʀ ᴄᴏɴᴛᴀɪɴᴇʀꜱ ᴏɴ ᴛʜᴇ ꜱᴇʀᴠᴇʀ.
+The project uses Oracle-VM as the virtualization platform to run multiple virtual machines on a single physical server. One of these virtual machines is an Ubuntu Server, which serves as the operating system for the project. Docker Engine is installed on the Ubuntu Server to build, run, and manage Docker containers.
 
-ɴᴇxᴛ, ᴡᴇ ᴡɪʟʟ ᴜꜱᴇ ᴛʜᴇ ᴛᴏᴏᴘʟᴀᴛᴇ.ᴄᴏᴍ ʜᴛᴍʟ ᴛᴇᴍᴘʟᴀᴛᴇ ᴛᴏ ᴄʀᴇᴀᴛᴇ ᴛʜᴇ ᴡᴇʙꜱɪᴛᴇ. ᴡᴇ ᴡɪʟʟ ᴄᴜꜱᴛᴏᴍɪᴢᴇ ᴛʜᴇ ᴛᴇᴍᴘʟᴀᴛᴇ ᴛᴏ ᴍᴀᴛᴄʜ ᴏᴜʀ ᴅᴇꜱɪʀᴇᴅ ᴅᴇꜱɪɢɴ ᴀɴᴅ ꜰᴜɴᴄᴛɪᴏɴᴀʟɪᴛʏ. ᴛʜɪꜱ ᴡɪʟʟ ɪɴᴄʟᴜᴅᴇ ᴇᴅɪᴛɪɴɢ ᴛʜᴇ ʜᴛᴍʟ ᴀɴᴅ ᴄꜱꜱ ꜰɪʟᴇꜱ, ᴀꜱ ᴡᴇʟʟ ᴀꜱ ᴀᴅᴅɪɴɢ ᴀɴʏ ɴᴇᴄᴇꜱꜱᴀʀʏ ꜰᴇᴀᴛᴜʀᴇꜱ ꜱᴜᴄʜ ᴀꜱ ꜰᴏʀᴍꜱ ᴀɴᴅ ᴀᴜᴛʜᴇɴᴛɪᴄᴀᴛɪᴏɴ.
+The application code is packaged as a Docker Image, which includes all the necessary components such as HTML, CSS, JavaScript, runtime, libraries, environment variables, and config files to run the software. The Docker Image can be run as a Docker Container, allowing the application to run in an isolated environment and making it easier to deploy and manage.
 
-ᴏɴᴄᴇ ᴛʜᴇ ᴡᴇʙꜱɪᴛᴇ ɪꜱ ᴄᴏᴍᴘʟᴇᴛᴇ, ᴡᴇ ᴡɪʟʟ ᴜꜱᴇ ᴅᴏᴄᴋᴇʀ ᴛᴏ ᴄᴏɴᴛᴀɪɴᴇʀɪᴢᴇ ᴛʜᴇ ᴀᴘᴘʟɪᴄᴀᴛɪᴏɴ. ᴛʜɪꜱ ᴡɪʟʟ ᴀʟʟᴏᴡ ᴜꜱ ᴛᴏ ᴇᴀꜱɪʟʏ ᴅᴇᴘʟᴏʏ ᴛʜᴇ ᴡᴇʙꜱɪᴛᴇ ᴛᴏ ᴅɪꜰꜰᴇʀᴇɴᴛ ᴇɴᴠɪʀᴏɴᴍᴇɴᴛꜱ ᴡɪᴛʜᴏᴜᴛ ᴛʜᴇ ɴᴇᴇᴅ ᴛᴏ ᴍᴀᴋᴇ ᴀɴʏ ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ ᴄʜᴀɴɢᴇꜱ.
-
-ᴀꜰᴛᴇʀ ᴛʜᴇ ᴡᴇʙꜱɪᴛᴇ ɪꜱ ᴄᴏɴᴛᴀɪɴᴇʀɪᴢᴇᴅ, ᴡᴇ ᴡɪʟʟ ᴘᴜꜱʜ ᴛʜᴇ ɪᴍᴀɢᴇ ᴛᴏ ɢɪᴛʜᴜʙ. ᴡᴇ ᴡɪʟʟ ᴛʜᴇɴ ᴄʀᴇᴀᴛᴇ ᴀ ᴅᴇᴛᴀɪʟᴇᴅ ʀᴇᴀᴅᴍᴇ ꜰɪʟᴇ ᴛʜᴀᴛ ᴇxᴘʟᴀɪɴꜱ ʜᴏᴡ ᴛᴏ ʀᴜɴ ᴛʜᴇ ᴡᴇʙꜱɪᴛᴇ ᴜꜱɪɴɢ ᴛʜᴇ ᴅᴏᴄᴋᴇʀ ɪᴍᴀɢᴇ. ᴛʜɪꜱ ᴡɪʟʟ ɪɴᴄʟᴜᴅᴇ ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ ᴏɴ ʜᴏᴡ ᴛᴏ ꜱᴇᴛ ᴜᴘ ᴛʜᴇ ᴏʀᴀᴄʟᴇ ᴠᴍ ᴀɴᴅ ᴅᴏᴄᴋᴇʀ-ᴇɴɢɪɴᴇ, ᴀꜱ ᴡᴇʟʟ ᴀꜱ ʜᴏᴡ ᴛᴏ ʀᴜɴ ᴛʜᴇ ᴡᴇʙꜱɪᴛᴇ ᴜꜱɪɴɢ ᴛʜᴇ ᴅᴏᴄᴋᴇʀ ɪᴍᴀɢᴇ.
-
-ᴛʜʀᴏᴜɢʜᴏᴜᴛ ᴛʜᴇ ᴘʀᴏᴊᴇᴄᴛ, ᴡᴇ ᴡɪʟʟ ᴜꜱᴇ ɢɪᴛʜᴜʙ'ꜱ ᴍᴏɴɪᴛᴏʀɪɴɢ ᴀɴᴅ ʟᴏɢɢɪɴɢ ᴛᴏᴏʟꜱ ᴛᴏ ᴇɴꜱᴜʀᴇ ᴛʜᴀᴛ ᴛʜᴇ ᴡᴇʙꜱɪᴛᴇ ɪꜱ ʀᴜɴɴɪɴɢ ꜱᴍᴏᴏᴛʜʟʏ ᴀɴᴅ ᴛʀᴏᴜʙʟᴇꜱʜᴏᴏᴛ ᴀɴʏ ɪꜱꜱᴜᴇꜱ ᴛʜᴀᴛ ᴍᴀʏ ᴀʀɪꜱᴇ.
-
-ᴏᴠᴇʀᴀʟʟ, ᴛʜɪꜱ ᴘʀᴏᴊᴇᴄᴛ ᴡɪʟʟ ɪɴᴠᴏʟᴠᴇ ꜱᴇᴛᴛɪɴɢ ᴜᴘ ᴀɴ ᴏʀᴀᴄʟᴇ ᴠᴍ, ɪɴꜱᴛᴀʟʟɪɴɢ ᴛʜᴇ ᴅᴏᴄᴋᴇʀ-ᴇɴɢɪɴᴇ, ᴜꜱɪɴɢ ᴀ ᴘʀᴇ-ʙᴜɪʟᴛ ʜᴛᴍʟ ᴛᴇᴍᴘʟᴀᴛᴇ ꜰʀᴏᴍ ᴛᴏᴏᴘʟᴀᴛᴇ.ᴄᴏᴍ ᴛᴏ ᴄʀᴇᴀᴛᴇ ᴀ ᴡᴇʙꜱɪᴛᴇ, ᴄᴏɴᴛᴀɪɴᴇʀɪᴢɪɴɢ ᴛʜᴇ ᴀᴘᴘʟɪᴄᴀᴛɪᴏɴ ᴀɴᴅ ᴅᴇᴘʟᴏʏɪɴɢ ᴛʜᴇ ᴡᴇʙꜱɪᴛᴇ ᴏɴ ɢɪᴛʜᴜʙ ᴡɪᴛʜ ᴀ ʀᴇᴀᴅᴍᴇ ꜰɪʟᴇ. ᴛʜᴇ ᴇɴᴅ ʀᴇꜱᴜʟᴛ ᴡɪʟʟ ʙᴇ ᴀ ꜰᴜʟʟʏ ꜰᴜɴᴄᴛɪᴏɴɪɴɢ ᴡᴇʙꜱɪᴛᴇ ʜᴏꜱᴛᴇᴅ ᴏɴ ɢɪᴛʜᴜʙ, ᴛʜᴀᴛ ᴄᴀɴ ʙᴇ ᴇᴀꜱɪʟʏ ᴅᴇᴘʟᴏʏᴇᴅ ᴜꜱɪɴɢ ᴛʜᴇ ᴅᴏᴄᴋᴇʀ ɪᴍᴀɢᴇ.
+The final result is a web application written in HTML, CSS, and JavaScript, running within a Docker Container on the Ubuntu Server, and accessible through a web browser.
 </p>
 <h3 align="center">ᴛⷮoͦoͦls͛ iͥ uͧs͛eͤdͩ foͦrͬ ᴛⷮhͪiͥs͛ рⷬrͬoͦjeͤcͨᴛⷮ</h3>
 <div>

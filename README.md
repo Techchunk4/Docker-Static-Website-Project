@@ -1,4 +1,4 @@
-<h1 align="center">Docker container running on Linux-server</h1>
+<h1 align="center">Docker container running on a Linux server</h1>
 
 <p align="center">
 The diagram represents a setup for a project that utilizes virtualization, a Linux-based operating system, and containerization.

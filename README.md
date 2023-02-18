@@ -1,9 +1,10 @@
-<h1 align="center">Docker statick website project.</h1>
+<h1>Docker statick website project.</h1>
 
-<p align="center">
+<h2>
 A setup for a project that utilizes virtualization, a Linux-based operating system, and containerization.
+</h2>
 
-The project uses Oracle-VM as the virtualization platform to run multiple virtual machines on a single physical server. One of these virtual machines is an Ubuntu Server, which serves as the operating system for the project. Docker Engine is installed on the Ubuntu Server to build, run, and manage Docker containers.
+<p>The project uses Oracle-VM as the virtualization platform to run multiple virtual machines on a single physical server. One of these virtual machines is an Ubuntu Server, which serves as the operating system for the project. Docker Engine is installed on the Ubuntu Server to build, run, and manage Docker containers.
 
 The application code is packaged as a Docker Image, which includes all the necessary components such as HTML, CSS, JavaScript, runtime, libraries, environment variables, and config files to run the software. The Docker Image can be run as a Docker Container, allowing the application to run in an isolated environment and making it easier to deploy and manage.
 

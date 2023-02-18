@@ -1,4 +1,4 @@
-<h1 align="center">Docker static web project.</h1>
+<h1 align="center">Docker statick website project.</h1>
 
 <p align="center">
 A setup for a project that utilizes virtualization, a Linux-based operating system, and containerization.

@@ -11,9 +11,9 @@ Before starting with the project, ensure that you have the following installed:
    <li>Docker</li>
    <li>Vagrant</li>
  </ul>
-<h2>
+<h4>
 Installation steps:
-</h2>
+</h4>
 <ol>
 <li>Clone the repository to your local machine</li>
 <li>Navigate to the root directory of the project in the terminal</li>

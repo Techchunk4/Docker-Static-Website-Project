@@ -1,32 +1,45 @@
 <h1>Docker statick website project.</h1>
 
-<h2>
-A setup for a project that utilizes virtualization, a Linux-based operating system, and containerization.
-</h2>
-
-<p>The project uses Oracle-VM as the virtualization platform to run multiple virtual machines on a single physical server. One of these virtual machines is an Ubuntu Server, which serves as the operating system for the project. Docker Engine is installed on the Ubuntu Server to build, run, and manage Docker containers.
-
-The application code is packaged as a Docker Image, which includes all the necessary components such as HTML, CSS, JavaScript, runtime, libraries, environment variables, and config files to run the software. The Docker Image can be run as a Docker Container, allowing the application to run in an isolated environment and making it easier to deploy and manage.
-
-The final result is a web application written in HTML, CSS, and JavaScript, running within a Docker Container on the Ubuntu Server, and accessible through a web browser.
+<h4>
+This project is a basic static website that is deployed using Docker containers. The project consists of a simple HTML webpage, a Dockerfile to build the container, and a Vagrant file to configure the virtual environment.
+</h4>
+<h2>Prerequisites:</h2>
+<p>
+Before starting with the project, ensure that you have the following installed:
 </p>
-<h3 align="center">ᴛⷮoͦoͦls͛ iͥ uͧs͛eͤdͩ foͦrͬ ᴛⷮhͪiͥs͛ рⷬrͬoͦjeͤcͨᴛⷮ</h3>
-<div>
-         <ul>
-                  <li>Git</li>
-                   <li>Docker</li>
-                   <li>Ubuntu</li>
-                   <li>Oracle</li>
-                    <li>Vagrant</li>
-         </ul>
-<img width="50x" height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-<img width="50px" height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
-<img width="50px" height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" />
-<img width="50px" height="50px"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" />
-<img width="50px" height="50px"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vagrant/vagrant-original.svg" />
+<ul>
+   <li>Docker</li>
+   <li>Vagrant</li>
+ </ul>
+<h2>
+Installation steps:
+</h2>
+<ol>
+<li>Clone the repository to your local machine</li>
+<li>Navigate to the root directory of the project in the terminal</li>
+<li>Start the virtual machine using the following command:
+vagrant up</li>
+<li>SSH into the virtual machine using the following command:
+vagrant ssh
+</li>
+<li>Navigate to the project directory:
+cd /vagrant
+</li>
+<li>Build the Docker container using the Dockerfile:
+docker build -t <image-name> .
+Example: docker build -t my-static-website .
+</li>
+<li>Run the Docker container:
+docker run -p <host-port>:80 <image-name>
+Example: docker run -p 8080:80 my-static-website
+Open a web browser and go to http://localhost:<host-port> to view the website.
+</li>
+</ol>
+<h4>Conclusion:</h4>
+<p>This project demonstrates how to deploy a simple static website using Docker containers. The Vagrant file provides a consistent virtual environment for development and testing.</p>
          
 
-</div>
+
 
 
 

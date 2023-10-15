@@ -1,79 +1,49 @@
-# Docker VM Setup with Vagrant
+# Project Title: My Web Stack
 
-This repository contains configurations to set up a Virtual Machine (VM) with Docker using Vagrant. It provides a consistent environment for Docker-based development, encapsulated within a VM.
+This repository contains configurations and files to set up a virtual machine, Vagrant, Docker, and serve a static website.
 
 ## Prerequisites
 
-- [Vagrant](https://www.vagrantup.com/downloads.html)
-- [VirtualBox](https://www.virtualbox.org/wiki/Downloads) (or another provider supported by Vagrant)
-- Git (optional, but recommended for cloning this repository)
+1. [VirtualBox](https://www.virtualbox.org/)
+2. [Vagrant](https://www.vagrantup.com/)
+3. [Docker](https://www.docker.com/get-started)
 
-## Setup Instructions
+## Getting Started
 
-1. **Clone the Repository (Optional):**
+### Virtual Machine
 
-   If you've chosen to use Git:
-   ```bash
-   git clone https://your-repo-url.git
-   cd your-repo-dir
-   ```
+1. Download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
+2. Create a new virtual machine or use the provided `.ova` file to import a VM.
 
-2. **Start and Provision the VM:**
+### Vagrant
 
-   From the directory of the project, initiate:
-   ```bash
-   vagrant up
-   ```
+1. Clone this repository: `git clone [repo-url]`.
+2. Navigate to the repository directory: `cd [repo-name]`.
+3. Run `vagrant up` to initialize and provision the virtual machine.
+4. SSH into the VM using `vagrant ssh`.
 
-   This command sets up the VM, installs Docker and any other necessary tools or software.
+### Docker
 
-3. **SSH into the VM:**
+Inside the virtual machine or on your host:
 
-   Access the VM's terminal with:
-   ```bash
-   vagrant ssh
-   ```
+1. Build the Docker image: `docker build -t my-static-site:latest .`
+2. Run the Docker container: `docker run -p 8080:80 my-static-site:latest`.
 
-4. **Using Docker:**
+### Accessing the Static Website
 
-   Once inside the VM, Docker is available for use:
-   ```bash
-   docker --version
-   docker run hello-world
-   ```
+Once the Docker container is running, access the static website by navigating to `http://localhost:8080` in your browser.
 
-5. **Stopping the VM:**
+## Structure
 
-   To shut down the VM when you're done:
-   ```bash
-   vagrant halt
-   ```
-
-6. **Destroy the VM (Optional):**
-
-   If you want to remove the VM from your system:
-   ```bash
-   vagrant destroy
-   ```
-
-   To recreate it, just use `vagrant up` again.
-
-## Configuration Details
-
-- **Base Box:** The VM uses "ubuntu/bionic64" as its base image. You can change this in the `Vagrantfile` if needed.
-
-- **Provisioning:** Docker and its prerequisites are installed via a provisioning script (`provision.sh`). Adjust this script as needed for additional configurations or software.
-
-## Troubleshooting
-
-1. **Docker commands not working:** Ensure the VM is running with `vagrant status` and that Docker was correctly installed during the provisioning phase.
-
-2. **Vagrant issues:** Ensure that Vagrant and VirtualBox (or your selected provider) are updated. Some problems might be resolved by simply updating these tools.
+- `/vm`: Contains virtual machine configuration and related files.
+- `/vagrant`: Contains Vagrantfile and provisioning scripts.
+- `/docker`: Contains Dockerfile and other Docker-related configurations.
+- `/static-website`: Contains the static website's HTML, CSS, JS, and other assets.
 
 ## Contributing
 
-For suggestions, improvements, or bug fixes, please submit a pull request or open an issue in the repository.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
----
+## License
 
-Please modify placeholder URLs (`your-repo-url.git` and `your-repo-dir`) to fit your specific repository details. Adjustments might be needed depending on the specifics of your project and its configurations.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.

@@ -1,4 +1,4 @@
-# Project Title: My Web Stack
+#  Docker Static Web Stack
 
 This repository contains configurations and files to set up a virtual machine, Vagrant, Docker, and serve a static website.
 
